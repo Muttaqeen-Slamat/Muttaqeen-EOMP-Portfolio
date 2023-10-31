@@ -89,6 +89,10 @@ body{
     border-radius: 40px;
 }
 
+#Projects{
+    text-align: center;
+}
+
 .footer{
     text-align: center;
 }
