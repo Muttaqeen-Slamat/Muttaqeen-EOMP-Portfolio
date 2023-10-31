@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="nav">
         <div class="container-fluid">
             <a class="navbar-brand w-25" href="./index.html">
                 <img src="https://i.postimg.cc/Kj9HNvtX/download-1.gif" loading="lazy" class="img-fluid rounded-5 w-25" alt="logo">
@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link text-light" id="navbtn" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#About">About</a>
@@ -105,15 +105,15 @@
             <h2 class="mb-5 mt-5">Skills</h2>
             <div class="row">
                 <div class="col">
-                   <p id="Ehtml">HTML</p>
+                   <p id="Ehtml" class="ms-5 me-5">HTML</p>
                     <p id="begin">Beginner</p>
                 </div>
                 <div class="col">
-                    <p id="Ecss">Css</p>
+                    <p id="Ecss" class="ms-5 me-5">Css</p>
                     <p id="begin">Beginner</p>
                 </div>
                 <div class="col">
-                    <p id="Ebstrap">Bootstrap</p>
+                    <p id="Ebstrap" class="me-5 ms-5">Bootstrap</p>
                     <p id="begin">Beginner</p>
                 </div>
             </div>
@@ -167,6 +167,26 @@
             </div>
         </div>
     </section>
+
+    <section id="Contact" class="container">
+        <div><h2 class="mt-5 mb-5">Contact</h2></div>
+        <form action="">
+
+            <div class="mt-2">
+                <input type="text" name="Firstname" id="" placeholder="Enter Firstname" required>
+            </div>
+            <div class="mt-2">
+                <input type="text" name="Lastname" id="" placeholder="Enter Lastname" required>
+            </div>
+            <div class="mt-2">
+                <input type="email" name="Email" id="" placeholder="Enter Email" required>
+            </div>
+            <div class="mt-2">
+               <input type="text" name="Message" id="" placeholder="Enter Message">
+            </div>
+            
+        </form>
+        </section>
     
 </main>
 
