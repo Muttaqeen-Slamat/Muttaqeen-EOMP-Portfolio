@@ -33,6 +33,29 @@ body{
   
 }
 
+.edu{
+    text-align: center;
+
+}
+
+.hschool{
+    border: black solid 2px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.tschool{
+    border: black solid 2px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.cschool{
+    border: black solid 2px;
+    border-radius: 100px;
+    text-align: center;
+}
+
 .footer{
     text-align: center;
 }
