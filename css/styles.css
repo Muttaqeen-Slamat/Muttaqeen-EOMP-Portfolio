@@ -134,6 +134,14 @@ input{
     color: #BDD4E7;
 }
 
+input::placeholder{
+    color: #BDD4E7;
+}
+
 .footer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 10vh;
+    background-color: #8693AB;
 }
