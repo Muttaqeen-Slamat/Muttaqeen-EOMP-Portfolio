@@ -122,6 +122,7 @@ body{
     flex-direction: row;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 .container1{
     width: 350px;
@@ -279,6 +280,43 @@ body{
 
 .back4{
     background-image: url(https://i.postimg.cc/bJf5mgy1/Screenshot-2023-11-01-123454.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container5{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BDD4E7;
+}
+
+.container5:hover > .card{
+    transform: rotateY(180deg);
+}
+
+.front5, .back5{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.front5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDD4E7;
+}
+
+.back5{
+    background-image: url();
     background-repeat: no-repeat;
     transform: rotateY(180deg);
     display: flex;
