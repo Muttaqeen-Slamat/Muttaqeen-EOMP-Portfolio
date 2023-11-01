@@ -21,7 +21,6 @@ body{
     background-size: cover;
     background-blend-mode: luminosity;
     */
-    height: 100vh;
     background-color: #BDD4E7;    
 }
 
@@ -121,7 +120,8 @@ body{
 .content{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .container1{
     width: 350px;
@@ -211,6 +211,7 @@ body{
     justify-content: center;
     align-items: end;
 }
+
 .container3{
     width: 350px;
     height: 200px;
@@ -241,6 +242,43 @@ body{
 
 .back3{
     background-image: url(https://i.postimg.cc/nhYM6JCS/Screenshot-2023-11-01-115334.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container4{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BDD4E7;
+}
+
+.container4:hover > .card{
+    transform: rotateY(180deg);
+}
+
+.front4, .back4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.front4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDD4E7;
+}
+
+.back4{
+    background-image: url(https://i.postimg.cc/bJf5mgy1/Screenshot-2023-11-01-123454.png);
     background-repeat: no-repeat;
     transform: rotateY(180deg);
     display: flex;
