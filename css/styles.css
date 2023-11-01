@@ -118,6 +118,11 @@ body{
     text-align: center;
 }
 
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .container1{
     width: 350px;
     height: 200px;
@@ -143,7 +148,6 @@ body{
     height: 100%;
     width: 100%;
     position: absolute;
-    border-radius: px;
     backface-visibility: hidden;
     align-items: center;
 }
@@ -162,15 +166,86 @@ body{
     display: flex;
     justify-content: center;
     align-items: end;
-
 }
 
 .visitbtn{
     width: 50px;
     margin-bottom: 10px;
     background-color: #637074;
+    color: #BDD4E7;   
+}
+
+.container2{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #BDD4E7;
-    
+}
+
+.container2:hover > .card{
+    transform: rotateY(180deg);
+}
+
+.front2, .back2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.front2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDD4E7;
+}
+
+.back2{
+    background-image: url(https://i.postimg.cc/ZYvPp0Rz/Screenshot-2023-11-01-105929.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container3{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BDD4E7;
+}
+
+.container3:hover > .card{
+    transform: rotateY(180deg);
+}
+
+.front3, .back3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.front3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDD4E7;
+}
+
+.back3{
+    background-image: url(https://i.postimg.cc/nhYM6JCS/Screenshot-2023-11-01-115334.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 #Testimonials{
