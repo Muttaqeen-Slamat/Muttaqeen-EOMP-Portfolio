@@ -21,6 +21,7 @@ body{
     background-size: cover;
     background-blend-mode: luminosity;
     */
+    height: 100vh;
     background-color: #BDD4E7;    
 }
 
@@ -115,6 +116,61 @@ body{
 
 #Projects{
     text-align: center;
+}
+
+.container1{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BDD4E7;
+}
+
+.container1:hover > .card{
+    transform: rotateY(180deg);
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1150ms;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: px;
+    backface-visibility: hidden;
+    align-items: center;
+}
+
+.front{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BDD4E7;
+}
+
+.back{
+    background-image: url(https://i.postimg.cc/SKj7zcmp/Screenshot-2023-11-01-102604.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.visitbtn{
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: #637074;
+    color: #BDD4E7;
+    
 }
 
 #Testimonials{
