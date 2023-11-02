@@ -14,6 +14,15 @@
     color: #272829;
 }
 
+#logo{
+    width: 100px;
+}
+
+#selfportrait{
+    width: 250px;
+    
+}
+
 body{
     /*
     background-image: url(https://i.postimg.cc/NF4gLBQk/photo-1480506132288-68f7705954bd.jpg) ;
@@ -380,6 +389,11 @@ input::placeholder{
     width: 250px;
     height: 300px;
     border-radius: 40px;
+}
+
+#testcont{
+    background-color: #637074;
+    color: white;
 }
 
 .footer{
