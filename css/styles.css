@@ -345,7 +345,20 @@ input::placeholder{
     color: #BDD4E7;
 }
 
+#portrait1{
+    width: 500px;
+    height: 500px;
+}
 
+#portrait2{
+    width: 500px;
+    height: 500px;
+}
+
+#portrait3{
+    width: 500px;
+    height: 500px;
+}
 
 .footer{
     display: flex;
