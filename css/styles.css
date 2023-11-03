@@ -197,6 +197,7 @@ body{
     position: absolute;
     backface-visibility: hidden;
     align-items: center;
+    box-shadow: black 3px 3px 3px;
 }
 
 .front{
@@ -204,6 +205,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #BDD4E7;
+    box-shadow: black 3px 3px 3px;
 }
 
 .back{
@@ -247,6 +249,7 @@ body{
     position: absolute;
     backface-visibility: hidden;
     align-items: center;
+    box-shadow: black 3px 3px 3px;
 }
 
 .front2{
@@ -254,6 +257,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #BDD4E7;
+    box-shadow: black 3px 3px 3px;
 }
 
 .back2{
@@ -284,6 +288,7 @@ body{
     position: absolute;
     backface-visibility: hidden;
     align-items: center;
+    box-shadow: black 3px 3px 3px;
 }
 
 .front3{
@@ -291,6 +296,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #BDD4E7;
+    box-shadow: black 3px 3px 3px;
 }
 
 .back3{
@@ -321,6 +327,7 @@ body{
     position: absolute;
     backface-visibility: hidden;
     align-items: center;
+    box-shadow: black 3px 3px 3px;
 }
 
 .front4{
@@ -328,6 +335,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #BDD4E7;
+    box-shadow: black 3px 3px 3px;
 }
 
 .back4{
@@ -358,6 +366,7 @@ body{
     position: absolute;
     backface-visibility: hidden;
     align-items: center;
+    box-shadow: black 3px 3px 3px;
 }
 
 .front5{
@@ -365,6 +374,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #BDD4E7;
+    box-shadow: black 3px 3px 3px;
 }
 
 .back5{
