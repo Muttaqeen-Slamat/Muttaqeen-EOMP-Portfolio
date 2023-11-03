@@ -217,6 +217,7 @@ body{
     margin-bottom: 10px;
     background-color: #637074; 
     margin: 5px;  
+    border-radius: 20px;
 }
 
 .visitbtn a{
