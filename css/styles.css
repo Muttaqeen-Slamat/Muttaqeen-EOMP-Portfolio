@@ -213,10 +213,15 @@ body{
 }
 
 .visitbtn{
-    width: 50px;
+    width: 70px;
     margin-bottom: 10px;
-    background-color: #637074;
-    color: #BDD4E7;   
+    background-color: #637074; 
+    margin: 5px;  
+}
+
+.visitbtn a{
+    color: #BDD4E7;
+    text-decoration: none;
 }
 
 .container2{
